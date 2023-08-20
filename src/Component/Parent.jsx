@@ -1,4 +1,4 @@
-// ParentComponent.js
+
 import React, { useState } from 'react';
 import ItemList from './child';
 
@@ -26,7 +26,7 @@ function ParentComponent() {
 
   return (
     <div>
-      <h1 className='text-center p-2' >CRUD-Functions</h1>
+      <h1 className='text-center p-3' >CRUD-Functions</h1>
       <hr />
       <ItemList items={items} onAddItem={addItem} onUpdateItem={updateItem} onDeleteItem={deleteItem} />
     </div>
